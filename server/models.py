@@ -41,6 +41,7 @@ class Employee(db.Model):
 
 
 class Meeting(db.Model):
+    
     __tablename__ = 'meetings'
 
     id = db.Column(db.Integer, primary_key=True)
